@@ -1,0 +1,144 @@
+
+body{
+    
+    background-color: rgba(225,225,225,1.0);
+    max-width:100%;
+}
+main{
+margin-top:7%;
+
+}
+/*------------- Main Container For Each Section -----------*/
+.Container-wrapper{
+    
+    background-color: rgba(240,240,240,1.0);
+    margin: .5% auto;
+    max-width:90%;
+    padding:1% 1%;
+    
+}
+/*------------- First Section -----------*/
+header h1 {
+    display:block;
+    text-align: center;
+    margin-bottom:0%;
+    font-size: 40px;
+    
+}
+header h2{
+    display:block;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    font-size: 30px;
+    
+    
+}
+
+header ul {
+    display:block;
+    text-align: center;
+    margin-top: 1%;
+    margin-left:-1%;
+    font-size: 20px;
+    
+    
+    
+}
+header li{
+    display: inline;
+    line-height: 30px;
+    letter-spacing: 5px;
+}
+header li:last-child{
+    margin-left:0%;
+}
+header a{
+    text-decoration: none;
+    color: rgba(100,100,100,1.0);
+    
+    
+}
+header a:hover{
+    background-color:rgba(0,0,0,.5);
+    color:rgba(255,255,255,1.0);
+}
+#secoundsection a{
+    text-decoration: none;
+    color: rgba(255,100,100,1.0);
+
+}
+/*------------- Secound Section -----------*/
+
+
+section h1{
+    display:block;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    font-size: 40px;
+    
+    
+}
+
+
+Section ul{
+    text-align: center;
+    display:block;
+    font-size: 20px;
+    letter-spacing: 2px;
+    list-style-position:inside;
+    list-style: none;
+    width:95%;
+    
+}
+Section li{
+    text-align: center;
+    line-height: 30px;
+}
+
+Section #secoundsection li:before {
+    content: "\2714";
+}
+#section3{
+font-size: 25px;
+}
+
+.JobDesclass {
+max-width:100%;
+margin-top:75px;
+}
+
+.JobDesclass h4{
+
+    margin-left: 17%;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.JobDesclass h5{
+    margin-left:80%;
+    margin-top:-3%;
+    font-size: 20px;
+}
+.JobDesclass p {
+    margin-left: 19%;
+    overflow: auto;
+    color:gray;
+    padding-right: 25px;
+    padding-top: 0px;
+    }
+
+Section .JobDesclass p:before{
+    content: "\2714";
+}
+.JobDesclass Section {
+margin-top:50px;
+padding:0px 20px;
+padding-bottom:15px;
+}
+#Sections3{
+margin-left:38%;
+margin-top:3%;
+
+width:23%;
+}

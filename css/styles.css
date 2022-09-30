@@ -1,0 +1,217 @@
+
+/* HTML Elements */
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+h2{
+  font-family: 'Montserrat';
+  font-size:3rem;
+  line-height:1.5;
+}
+
+
+#title {
+  background-color: rgba(213,213,213,1.0);
+  height: 40%;  
+}
+
+/* Class Section */
+.container-fluid{
+  padding: 3% 15% 0% 15%;
+}
+/* navagation Bar */
+.navbar{
+  
+  padding: 0 0 4.5rem;
+  
+}
+
+.navbar-brand{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0px 18px;
+}
+
+.nav-link{
+  font-size: 10px;
+  font-family: "Montserrat-light";
+  font-weight: 2;
+  color:black;
+}
+.nav-link:hover{
+  color:white;
+  background-color: rgba(0,0,0,.5);
+}
+
+
+.navbar-brand:after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  transform: scaleX(0);
+  height: 2px;
+  top: 40%;
+  left:0.5% ;
+  background-color: #1D216B;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.navbar-brand:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom right;
+}
+
+
+/* Downlaod Buttons */
+.download_button{
+  margin:5% 3% 5% 0;
+}
+
+/* Images Titel Page */
+
+.rotateimg{
+  
+  width:60%;
+  transform: rotate(25deg);
+}
+
+
+/* This is the about me section */
+#about_me{
+  background-color: rgba(239,129,114,.9);
+}
+.img_sizes{
+  height:auto;
+  width: 60%; 
+  border-radius: 100%;
+  margin: 50px 0px 50% 50px;
+  margin-left: 50%;
+  margin-bottom: 50px;
+  
+}
+
+#about_me_yuri{
+  font-size: 50px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+#about_me_paragraph{
+  margin: 50px 0px ;
+  background-color: rgba(158, 158, 158, .4);
+}
+/* features Sections */
+
+#features{
+  padding: 7% 15%;
+} 
+.feature-box {
+  text-align: center;
+  padding: 5%;
+} 
+.section_two_face{
+  font-family: "Montserrat";
+  line-height: 1.5em;
+  text-align: center;
+  
+}
+
+/* Carusol Section */
+
+#portfolio_projects{
+  
+  background-color: rgba(158, 158, 158, .4);
+}
+
+
+.carousel{
+  padding: 15px 0px;
+  position:relative;
+  left:0%;
+  height:85%;
+  overflow: hidden;
+}
+.carousel-inner{
+  padding: 3.5% 4.5%;
+}
+.carousel-control-prev-icon::before{
+
+  
+  
+}
+.carousel-control-prev-icon{
+  background-image: none;
+  
+}
+.carousel-control-next-icon:before{
+content:"\1F80A";
+ background-image: none;
+  color:#1D216B;
+  font-size: 400%;
+}
+.carousel-control-next-icon{
+  background-image: none;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+  text-decoration: none;
+
+}
+/* Contact Me Section */
+#contact_me{
+  background-color: #ef8172e6;
+  width: auto;
+ overflow: hidden;
+}
+
+/* Tabke Design */
+#table-title{
+font-family:'Times New Roman', Times, serif;
+font-size: 2.5rem;
+text-align: center;
+}
+textarea{
+  resize: none;
+}
+input{
+  background: linear-gradient(180deg, #ef8172e6, #e0417f);
+  transition: all 0.1s ease-out;
+  transform: scale(1);
+  border: none;
+}
+input:focus::placeholder{
+opacity: 0;
+}
+textarea:active::placeholder{
+  opacity: 0;
+}
+input:hover{
+ background: linear-gradient(45deg, #fff, #000);
+  border: none;
+}
+textarea:focus::placeholder{
+  opacity: 0;
+
+}
+table{
+  border-style: none;
+}
+textarea:hover{
+  background-color:#fff;
+  border: none;
+}
+::placeholder{
+  font-family:'Times New Roman', Times, serif ;
+  font-size: 20px;
+  color:rgba(0,0,0,1.0) !important;
+}
+
